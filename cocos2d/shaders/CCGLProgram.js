@@ -538,7 +538,7 @@ cc.GLProgram = cc.Class.extend(/** @lends cc.GLProgram# */{
             }
         } else {
             this._glContext.uniform4f(location, f1, f2, f3, f4);
-            cc.log('uniform4f', f1, f2, f3, f4);
+            // cc.log('uniform4f', f1, f2, f3, f4);
         }
     },
 
