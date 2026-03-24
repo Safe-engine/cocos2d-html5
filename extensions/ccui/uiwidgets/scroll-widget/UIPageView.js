@@ -44,7 +44,7 @@ ccui.PageView = ccui.ListView.extend(/** @lends ccui.PageView# */{
     _indicatorPositionAsAnchorPoint: null,
     /**
      * Allocates and initializes a UIPageView.
-     * Constructor of ccui.PageView. please do not call this function by yourself, you should pass the parameters to constructor to initialize it .
+     * Constructor of ccui.PageView. please do not call this function by yourself, you should pass the parameters to constructor to initialize it.
      * @example
      * // example
      * var uiPageView = new ccui.PageView();

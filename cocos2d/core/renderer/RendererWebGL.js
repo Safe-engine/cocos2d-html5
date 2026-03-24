@@ -259,7 +259,7 @@ return {
             gl.disable(gl.DEPTH_TEST);
         }
     },
-    
+
     pushRenderCommand: function (cmd) {
         if (!cmd.rendering && !cmd.uploadData)
             return;

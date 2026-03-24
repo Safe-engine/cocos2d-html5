@@ -178,7 +178,7 @@ ccui.Widget = ccui.ProtectedNode.extend(/** @lends ccui.Widget# */{
     },
 
     /**
-     * initializes state of widget. please do not call this function by yourself, you should pass the parameters to constructor to initialize it .
+     * initializes state of widget. please do not call this function by yourself, you should pass the parameters to constructor to initialize it.
      * @returns {boolean}
      */
     init: function () {
@@ -434,7 +434,7 @@ ccui.Widget = ccui.ProtectedNode.extend(/** @lends ccui.Widget# */{
             var component = this._getOrCreateLayoutComponent();
             component.setUsingPercentContentSize(true);
             component.setPercentContentSize(percent);
-            component.refreshLayout();            
+            component.refreshLayout();
             return;
         }
 
